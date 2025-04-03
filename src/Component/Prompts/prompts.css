@@ -1,0 +1,265 @@
+.chat-container1 {
+    height: 80vh;
+    width: 63vw;
+    padding: 50px 50px 0 50px;
+    height: 85.4vh;
+    background-color: white;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.chat-container-right {
+    height: 88vh;
+    width: 40vw;
+    padding: 10px;
+    background-color: rgba(214, 213, 213, 0.397);
+}
+
+.chat-container-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.chat-container-top button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    color: rgb(126, 86, 172);
+    border: 1px solid rgb(126, 86, 172);
+    background-color: #fff;
+
+}
+
+.container-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+
+}
+
+.container-text button {
+    width: auto;
+    padding: 5px;
+    color: rgb(126, 86, 172);
+    border-radius: 5px;
+    border: 1px solid rgb(126, 86, 172);
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.show-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-more-button button {
+    width: 300px;
+    padding: 5px;
+    color: rgb(126, 86, 172);
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    margin-left: -50px;
+
+}
+
+
+.chat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    font-size: large;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+    height: 15%;
+    margin: 0px 10px;
+    background-color: rgb(240, 245, 255);
+    border-radius: 10px;
+}
+
+.user {
+    width: 80%;
+    padding: 8px 15px;
+    background-color: #df84ff;
+    margin: 15px 50px 15px 10px;
+    border-radius: 25px 25px 25px 0px;
+    justify-content: flex-start;
+}
+
+.bot {
+    width: 80%;
+    padding: 9px;
+    background-color: white;
+    margin: 15px 10px 15px 50px;
+    border-radius: 25px 25px 0px 25px;
+    justify-content: flex-end;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user p {
+    color: white;
+}
+
+.new-chat-wrapper {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 25px;
+}
+
+.new-chat a img {
+    width: 20px;
+    height: 20px;
+}
+
+/* .option:hover {
+    background-color: #3a6cc5;
+} */
+
+.top-middle-image img {
+    height: 400px;
+    width: 450px;
+    border-radius: 10px;
+}
+.welcome-header{
+  margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.user-header1 h1 {
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+    background: linear-gradient(to right, #2D4DE1, #FF1313);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.user-header1 {
+    width: 60%;
+}
+
+.search-prompt-wrapper input:focus-visible {
+    outline: none;
+}
+
+.search-prompt-wrapper input {
+    border: none;
+}
+.prompt-middle-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.search-prompt-wrapper{
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    border: 1px solid #513131;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.prompt-search{
+    background-color: black;
+    padding: 15px 40px;
+    border-radius: 40px;
+}
+.prompt-bottom-wrapper h1{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    color: black;
+}
+.prompt-tab p{
+    color: #959595;
+}
+.prompt-tab-wrapper{
+    display: flex;
+    gap: 25px;
+}
+.prompt-tab{
+    border: 1px solid #ABABAB;
+    padding: 8px 20px;
+    border-radius: 12px;
+}
+.prompt-card{
+    background-color: #F0F5FF;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.prompt-card p{
+    color: black;
+}
+
+.all-prompt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-prompt-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Application-Analysis-prompt-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.more-prompt-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.more-prompt-wrapper p{
+    color: #444444;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.prompt-bottom-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.prompt-tab {
+    cursor: pointer;
+  }
+  
+  .prompt-tab.active {
+    background-color: #F0F5FF ; 
+    color: white; 
+    border: 1px solid #2043DF;
+  }
+  
+  .prompt-card:hover{
+    background-color: #dfd7ffc2;
+}
+
+  

@@ -1,0 +1,118 @@
+.dropdown-header {
+  cursor: pointer;
+  padding: 8px 16px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: 500;
+}
+
+.dropdown-header.active {
+  background-color: #fffefea3;
+}
+
+.dropdown-content {
+  padding: 8px 16px;
+}
+
+.styled-image {
+  width: 50%;
+  height: 50%;
+  margin: 0 0 20px 20%;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #465775;
+  height: 88.54vh;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+}
+
+.sidebar-dropdown {
+  margin-bottom: 10px;
+}
+
+
+.dropdown-header.active {
+  background-color: #ddd;
+}
+
+.sub-dropdowns {
+  margin-top: 5px;
+}
+
+.sub-dropdown-header {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 3px;
+  margin-left: 15px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.sub-dropdown-header.active {
+  background-color: #ccc;
+}
+
+.content {
+  flex: 1 1;
+  margin-left: 20px;
+  padding: 40px;
+  overflow: auto;
+  height: 81vh;
+  width: min-content;
+}
+
+.content-section {
+  margin-bottom: 20px;
+  width: 66vw;
+}
+
+.mildly-colored {
+  background-color: #728aa7;
+  padding: 10px;
+  border-radius: 16px;
+  width: max-content;
+}
+
+.black-text {
+  color: black;
+}
+
+.code-section {
+  background-color: #eff4ff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 0px;
+  white-space: pre-wrap;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.code-section code {
+  text-align: left;
+  color: #464646;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: smaller;
+}
+
+.content-section ul,
+.code-section ul {
+  list-style-type: disc;
+  padding-left: 20px; 
+  color: black; 
+}
+
+

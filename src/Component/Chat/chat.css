@@ -1,0 +1,106 @@
+.chat-container{
+    height: 90.54vh;
+    width: 25vw;
+    display: flex;
+    background-color: #f0f5ff;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user {
+    width: 80%;
+    padding: 8px 15px;
+    background-color: #df84ff;
+    margin: 15px 50px 15px 10px;
+    border-radius: 25px 25px 25px 0px;
+    justify-content: flex-start;
+}
+.bot {
+    width: 80%;
+    padding: 9px;
+    background-color: white;
+    margin: 15px 10px 15px 50px;
+    border-radius: 25px 25px 0px 25px;
+    justify-content: flex-end;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.user p{
+    color: white;
+}
+.new-chat-wrapper{
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 25px;
+}
+.new-chat a img{
+    width: 20px;
+    height: 20px;
+}
+.option:hover{
+    background-color: #dfd7ffc2;
+}
+.suggestion-wrapper{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.suggestion-wrapper p{
+    color: #000000;
+    font-size: 16px;
+}
+.top-middle-header h5{
+    color: #2043DF;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    padding: 0px 25px;
+}
+.top-middle-header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: black;
+}
+.top-inner-wrapper{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+.top-inner-wrapper h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.inner-arrow{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.inner-arrow p{
+    color: #444444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.inner-arrow img{
+    width: 20px;
+}
+.border-bottom{
+    width: 100%;
+    margin: 0px 10px;
+    height: 1px;
+    background-color: #CACACA;
+}
+.left-chat-wrapper{
+    background-color: #FFFFFF;
+    padding: 30px 15px;
+    border-radius: 12px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
